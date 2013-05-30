@@ -1,0 +1,31 @@
+Package: fic-mode
+Section: extensions
+License: GPL-2+
+Depends: emacs (>= 22)
+Status: stable
+Archive:
+Maintainer: Jari Aalto <jari.aalto@cante.net>
+Bugs:
+Upstream: Trey Jackson <bigfaceworm@gmail.com>
+Upstream-Bugs: Trey Jackson <bigfaceworm@gmail.com>
+Upstream-Homepage: http://www.emacswiki.org/emacs-fr/TreyJackson
+Vcs-Type:
+Vcs-Url:
+Vcs-Browser:
+Homepage:
+Wiki: http://www.emacswiki.org/emacs/
+Commentary:
+Description: Show FIXME/TODO/BUG/KLUDGE in special face in comments
+ I saw this question[1] on Stack Overflow asking to highlight FIXME (and
+ similar strings) in your code, but only in comments and strings.
+ .
+ The current fixme-mode.el found on the Emacs Wiki is kind of clunky (it's
+ really a major mode) and awkward to read. So I took the challenge to write
+ a new minor-mode which answers the question.
+ .
+ I give you fic-mode.el[2]. It's named fic as an acronym for Fixme In
+ Comments.
+ .
+ Note: the code hasn't been touched since 2010.
+ [1] http://stackoverflow.com/questions/2367611/emacs-highlighting-todo-only-in-comments
+ [2] http://trey-jackson.blogspot.fi/2010/10/emacs-tip-37-fic-modeel.html
