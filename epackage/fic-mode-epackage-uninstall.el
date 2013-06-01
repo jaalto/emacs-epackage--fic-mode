@@ -1,0 +1,7 @@
+(add-hook 'c-mode-hook 'turn-on-fic-mode)
+(add-hook 'c++-mode-hook 'turn-on-fic-mode)
+(add-hook 'java-mode-hook 'turn-on-fic-mode)
+(add-hook 'perl-mode-hook 'turn-on-fic-mode)
+(add-hook 'python-mode-hook 'turn-on-fic-mode)
+(add-hook 'ruby-mode-hook 'turn-on-fic-mode)
+(provide 'fic-mode-epackage-uninstall)
