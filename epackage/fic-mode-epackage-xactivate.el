@@ -1,4 +1,4 @@
-(require 'fic-mode-epackage-install)
+(autoload 'turn-on-fic-mode                     "fic-mode" "" t)
 (add-hook 'c-mode-hook 'turn-on-fic-mode)
 (add-hook 'c++-mode-hook 'turn-on-fic-mode)
 (add-hook 'java-mode-hook 'turn-on-fic-mode)
